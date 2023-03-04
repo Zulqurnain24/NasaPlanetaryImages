@@ -58,7 +58,6 @@ final class PlanetViewModel: ObservableObject {
     
     func didView(_ item: PlanetModel) {
         if let index = allPlanets.firstIndex(where: { $0.model.id == item.id }) {
-            allPlanets[index] = FavoriteWrapper(model: item, title: item.title, imageHistogram: UIImage(imageLiteralResourceName: item.image).imageHistogram())
             allPlanets[index].hasOpened = true
         }
     }
