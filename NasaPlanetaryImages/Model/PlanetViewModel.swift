@@ -40,6 +40,12 @@ final class PlanetViewModel: ObservableObject {
         recommendationsTask = Task {
             do {
                 RealTimeRegression.shared.set(recommendations: 4) // Set number of recommendations
+                for i in 0..<allPlanets.count {
+                    if allPlanets[i].model.id == item.id {
+                        allPlanets[i].isFavorite = true
+                        allPlanets[i].hasClosed = true
+                    }
+                }
                 let result = try await RealTimeRegression.shared.computeRecommendations(basedOn: allPlanets)
                 if !Task.isCancelled {
                     recommendations = result
@@ -54,7 +60,6 @@ final class PlanetViewModel: ObservableObject {
         if let index = allPlanets.firstIndex(where: { $0.model.id == item.id }) {
             allPlanets[index] = FavoriteWrapper(model: item, title: item.title, imageHistogram: UIImage(imageLiteralResourceName: item.image).imageHistogram())
             allPlanets[index].hasOpened = true
-            allPlanets[index].isFavorite = true
         }
     }
     
