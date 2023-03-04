@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "59180FD7-1F00-4933-ADFE-9035F17E2C65"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A042F844-0CD2-4818-AFCE-B23A4AEADBC9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NasaPlanetaryImages/Frameworks/RealTimeRegression.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "hasClosed"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FDEF7B3-064C-402A-9265-126F7B1AAB31"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NasaPlanetaryImages/Frameworks/RealTimeRegression.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "hasClosed"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "5FDEF7B3-064C-402A-9265-126F7B1AAB31 - ece7189cfdedb07b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NasaPlanetaryImages.FavoriteWrapper.hasClosed.didset : Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "NasaPlanetaryImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Documents/Projects/NasaPlanetaryImages/NasaPlanetaryImages/Frameworks/RealTimeRegression.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  uuid = "5FDEF7B3-064C-402A-9265-126F7B1AAB31 - ece7189cfdedb07b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NasaPlanetaryImages.FavoriteWrapper.hasClosed.didset : Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "NasaPlanetaryImages"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Documents/Projects/NasaPlanetaryImages/NasaPlanetaryImages/Frameworks/RealTimeRegression.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "784">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA307ACA-8E2B-40F7-88B2-9880DCA795F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NasaPlanetaryImages/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27C1EEC229B3731900F0F0BA /* NasaPlanetaryImagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C1EEC129B3731900F0F0BA /* NasaPlanetaryImagesApp.swift */; };
+		27C1EEC429B3731900F0F0BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C1EEC329B3731900F0F0BA /* ContentView.swift */; };
+		27C1EEC629B3731A00F0F0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C1EEC529B3731A00F0F0BA /* Assets.xcassets */; };
+		27C1EEC929B3731A00F0F0BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C1EEC829B3731A00F0F0BA /* Preview Assets.xcassets */; };
+		27C1EED329B3731A00F0F0BA /* NasaPlanetaryImagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C1EED229B3731A00F0F0BA /* NasaPlanetaryImagesTests.swift */; };
+		27C1EEDD29B3731A00F0F0BA /* NasaPlanetaryImagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C1EEDC29B3731A00F0F0BA /* NasaPlanetaryImagesUITests.swift */; };
+		27C1EEDF29B3731A00F0F0BA /* NasaPlanetaryImagesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C1EEDE29B3731A00F0F0BA /* NasaPlanetaryImagesUITestsLaunchTests.swift */; };
+		27C1EEED29B3734400F0F0BA /* planetsContent.json in Resources */ = {isa = PBXBuildFile; fileRef = 27C1EEEC29B3734400F0F0BA /* planetsContent.json */; };
+		27C1EF0529B374CA00F0F0BA /* image_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1EEF429B374CA00F0F0BA /* image_2.png */; };
+		27C1EF0629B374CA00F0F0BA /* image_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1EEF629B374CA00F0F0BA /* image_3.png */; };
+		27C1EF0929B374CA00F0F0BA /* image_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1EEFA29B374CA00F0F0BA /* image_4.png */; };
+		27C1EF0A29B374CA00F0F0BA /* image_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1EEFC29B374CA00F0F0BA /* image_5.png */; };
+		27C1EF0C29B374CA00F0F0BA /* image_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1EEFF29B374CA00F0F0BA /* image_6.png */; };
+		27C1EF0E29B374CA00F0F0BA /* image_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27C1EF0229B374CA00F0F0BA /* image_1.png */; };
+		27C1EF2229B37F2000F0F0BA /* PlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C1EF2129B37F2000F0F0BA /* PlanetViewModel.swift */; };
+		27C1EF2429B37F4500F0F0BA /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C1EF2329B37F4500F0F0BA /* PlanetModel.swift */; };
+		27C1EF2729B3826500F0F0BA /* RecommendationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C1EF2629B3826500F0F0BA /* RecommendationsView.swift */; };
+		27C1EF3129B3B70700F0F0BA /* RealTimeRegression in Frameworks */ = {isa = PBXBuildFile; productRef = 27C1EF3029B3B70700F0F0BA /* RealTimeRegression */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27C1EECF29B3731A00F0F0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C1EEB629B3731900F0F0BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C1EEBD29B3731900F0F0BA;
+			remoteInfo = NasaPlanetaryImages;
+		};
+		27C1EED929B3731A00F0F0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27C1EEB629B3731900F0F0BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C1EEBD29B3731900F0F0BA;
+			remoteInfo = NasaPlanetaryImages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27C1EEBE29B3731900F0F0BA /* NasaPlanetaryImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaPlanetaryImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C1EEC129B3731900F0F0BA /* NasaPlanetaryImagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaPlanetaryImagesApp.swift; sourceTree = "<group>"; };
+		27C1EEC329B3731900F0F0BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27C1EEC529B3731A00F0F0BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27C1EEC829B3731A00F0F0BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27C1EECE29B3731A00F0F0BA /* NasaPlanetaryImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NasaPlanetaryImagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C1EED229B3731A00F0F0BA /* NasaPlanetaryImagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaPlanetaryImagesTests.swift; sourceTree = "<group>"; };
+		27C1EED829B3731A00F0F0BA /* NasaPlanetaryImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NasaPlanetaryImagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C1EEDC29B3731A00F0F0BA /* NasaPlanetaryImagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaPlanetaryImagesUITests.swift; sourceTree = "<group>"; };
+		27C1EEDE29B3731A00F0F0BA /* NasaPlanetaryImagesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaPlanetaryImagesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27C1EEEC29B3734400F0F0BA /* planetsContent.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = planetsContent.json; sourceTree = "<group>"; };
+		27C1EEF429B374CA00F0F0BA /* image_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_2.png; sourceTree = "<group>"; };
+		27C1EEF629B374CA00F0F0BA /* image_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_3.png; sourceTree = "<group>"; };
+		27C1EEFA29B374CA00F0F0BA /* image_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_4.png; sourceTree = "<group>"; };
+		27C1EEFC29B374CA00F0F0BA /* image_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_5.png; sourceTree = "<group>"; };
+		27C1EEFF29B374CA00F0F0BA /* image_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_6.png; sourceTree = "<group>"; };
+		27C1EF0229B374CA00F0F0BA /* image_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_1.png; sourceTree = "<group>"; };
+		27C1EF2129B37F2000F0F0BA /* PlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewModel.swift; sourceTree = "<group>"; };
+		27C1EF2329B37F4500F0F0BA /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
+		27C1EF2629B3826500F0F0BA /* RecommendationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27C1EEBB29B3731900F0F0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C1EF3129B3B70700F0F0BA /* RealTimeRegression in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C1EECB29B3731A00F0F0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C1EED529B3731A00F0F0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C1EEB529B3731900F0F0BA = {
+			isa = PBXGroup;
+			children = (
+				27C1EEC029B3731900F0F0BA /* NasaPlanetaryImages */,
+				27C1EED129B3731A00F0F0BA /* NasaPlanetaryImagesTests */,
+				27C1EEDB29B3731A00F0F0BA /* NasaPlanetaryImagesUITests */,
+				27C1EEBF29B3731900F0F0BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27C1EEBF29B3731900F0F0BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27C1EEBE29B3731900F0F0BA /* NasaPlanetaryImages.app */,
+				27C1EECE29B3731A00F0F0BA /* NasaPlanetaryImagesTests.xctest */,
+				27C1EED829B3731A00F0F0BA /* NasaPlanetaryImagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27C1EEC029B3731900F0F0BA /* NasaPlanetaryImages */ = {
+			isa = PBXGroup;
+			children = (
+				27C1EF2529B3825400F0F0BA /* Views */,
+				27C1EF2029B37F1300F0F0BA /* Model */,
+				27C1EEEB29B3733B00F0F0BA /* Content */,
+				27C1EEC129B3731900F0F0BA /* NasaPlanetaryImagesApp.swift */,
+				27C1EEC329B3731900F0F0BA /* ContentView.swift */,
+				27C1EEC529B3731A00F0F0BA /* Assets.xcassets */,
+				27C1EEC729B3731A00F0F0BA /* Preview Content */,
+			);
+			path = NasaPlanetaryImages;
+			sourceTree = "<group>";
+		};
+		27C1EEC729B3731A00F0F0BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27C1EEC829B3731A00F0F0BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27C1EED129B3731A00F0F0BA /* NasaPlanetaryImagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				27C1EED229B3731A00F0F0BA /* NasaPlanetaryImagesTests.swift */,
+			);
+			path = NasaPlanetaryImagesTests;
+			sourceTree = "<group>";
+		};
+		27C1EEDB29B3731A00F0F0BA /* NasaPlanetaryImagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27C1EEDC29B3731A00F0F0BA /* NasaPlanetaryImagesUITests.swift */,
+				27C1EEDE29B3731A00F0F0BA /* NasaPlanetaryImagesUITestsLaunchTests.swift */,
+			);
+			path = NasaPlanetaryImagesUITests;
+			sourceTree = "<group>";
+		};
+		27C1EEEB29B3733B00F0F0BA /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				27C1EF0229B374CA00F0F0BA /* image_1.png */,
+				27C1EEF429B374CA00F0F0BA /* image_2.png */,
+				27C1EEF629B374CA00F0F0BA /* image_3.png */,
+				27C1EEFA29B374CA00F0F0BA /* image_4.png */,
+				27C1EEFC29B374CA00F0F0BA /* image_5.png */,
+				27C1EEFF29B374CA00F0F0BA /* image_6.png */,
+				27C1EEEC29B3734400F0F0BA /* planetsContent.json */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		27C1EF2029B37F1300F0F0BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27C1EF2129B37F2000F0F0BA /* PlanetViewModel.swift */,
+				27C1EF2329B37F4500F0F0BA /* PlanetModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27C1EF2529B3825400F0F0BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27C1EF2629B3826500F0F0BA /* RecommendationsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27C1EEBD29B3731900F0F0BA /* NasaPlanetaryImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C1EEE229B3731A00F0F0BA /* Build configuration list for PBXNativeTarget "NasaPlanetaryImages" */;
+			buildPhases = (
+				27C1EEBA29B3731900F0F0BA /* Sources */,
+				27C1EEBB29B3731900F0F0BA /* Frameworks */,
+				27C1EEBC29B3731900F0F0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NasaPlanetaryImages;
+			packageProductDependencies = (
+				27C1EF3029B3B70700F0F0BA /* RealTimeRegression */,
+			);
+			productName = NasaPlanetaryImages;
+			productReference = 27C1EEBE29B3731900F0F0BA /* NasaPlanetaryImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27C1EECD29B3731A00F0F0BA /* NasaPlanetaryImagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C1EEE529B3731A00F0F0BA /* Build configuration list for PBXNativeTarget "NasaPlanetaryImagesTests" */;
+			buildPhases = (
+				27C1EECA29B3731A00F0F0BA /* Sources */,
+				27C1EECB29B3731A00F0F0BA /* Frameworks */,
+				27C1EECC29B3731A00F0F0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C1EED029B3731A00F0F0BA /* PBXTargetDependency */,
+			);
+			name = NasaPlanetaryImagesTests;
+			productName = NasaPlanetaryImagesTests;
+			productReference = 27C1EECE29B3731A00F0F0BA /* NasaPlanetaryImagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27C1EED729B3731A00F0F0BA /* NasaPlanetaryImagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C1EEE829B3731A00F0F0BA /* Build configuration list for PBXNativeTarget "NasaPlanetaryImagesUITests" */;
+			buildPhases = (
+				27C1EED429B3731A00F0F0BA /* Sources */,
+				27C1EED529B3731A00F0F0BA /* Frameworks */,
+				27C1EED629B3731A00F0F0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C1EEDA29B3731A00F0F0BA /* PBXTargetDependency */,
+			);
+			name = NasaPlanetaryImagesUITests;
+			productName = NasaPlanetaryImagesUITests;
+			productReference = 27C1EED829B3731A00F0F0BA /* NasaPlanetaryImagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27C1EEB629B3731900F0F0BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					27C1EEBD29B3731900F0F0BA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					27C1EECD29B3731A00F0F0BA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 27C1EEBD29B3731900F0F0BA;
+					};
+					27C1EED729B3731A00F0F0BA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 27C1EEBD29B3731900F0F0BA;
+					};
+				};
+			};
+			buildConfigurationList = 27C1EEB929B3731900F0F0BA /* Build configuration list for PBXProject "NasaPlanetaryImages" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27C1EEB529B3731900F0F0BA;
+			packageReferences = (
+				27C1EF2F29B3B70700F0F0BA /* XCRemoteSwiftPackageReference "RealTimeRegression" */,
+			);
+			productRefGroup = 27C1EEBF29B3731900F0F0BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27C1EEBD29B3731900F0F0BA /* NasaPlanetaryImages */,
+				27C1EECD29B3731A00F0F0BA /* NasaPlanetaryImagesTests */,
+				27C1EED729B3731A00F0F0BA /* NasaPlanetaryImagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27C1EEBC29B3731900F0F0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C1EF0A29B374CA00F0F0BA /* image_5.png in Resources */,
+				27C1EF0929B374CA00F0F0BA /* image_4.png in Resources */,
+				27C1EEC929B3731A00F0F0BA /* Preview Assets.xcassets in Resources */,
+				27C1EF0529B374CA00F0F0BA /* image_2.png in Resources */,
+				27C1EF0E29B374CA00F0F0BA /* image_1.png in Resources */,
+				27C1EEC629B3731A00F0F0BA /* Assets.xcassets in Resources */,
+				27C1EF0C29B374CA00F0F0BA /* image_6.png in Resources */,
+				27C1EF0629B374CA00F0F0BA /* image_3.png in Resources */,
+				27C1EEED29B3734400F0F0BA /* planetsContent.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C1EECC29B3731A00F0F0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C1EED629B3731A00F0F0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27C1EEBA29B3731900F0F0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C1EEC429B3731900F0F0BA /* ContentView.swift in Sources */,
+				27C1EF2429B37F4500F0F0BA /* PlanetModel.swift in Sources */,
+				27C1EEC229B3731900F0F0BA /* NasaPlanetaryImagesApp.swift in Sources */,
+				27C1EF2229B37F2000F0F0BA /* PlanetViewModel.swift in Sources */,
+				27C1EF2729B3826500F0F0BA /* RecommendationsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C1EECA29B3731A00F0F0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C1EED329B3731A00F0F0BA /* NasaPlanetaryImagesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C1EED429B3731A00F0F0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C1EEDF29B3731A00F0F0BA /* NasaPlanetaryImagesUITestsLaunchTests.swift in Sources */,
+				27C1EEDD29B3731A00F0F0BA /* NasaPlanetaryImagesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27C1EED029B3731A00F0F0BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C1EEBD29B3731900F0F0BA /* NasaPlanetaryImages */;
+			targetProxy = 27C1EECF29B3731A00F0F0BA /* PBXContainerItemProxy */;
+		};
+		27C1EEDA29B3731A00F0F0BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27C1EEBD29B3731900F0F0BA /* NasaPlanetaryImages */;
+			targetProxy = 27C1EED929B3731A00F0F0BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27C1EEE029B3731A00F0F0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27C1EEE129B3731A00F0F0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27C1EEE329B3731A00F0F0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NasaPlanetaryImages/Preview Content\"";
+				DEVELOPMENT_TEAM = R592ZXYRNX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nasa.planets101.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27C1EEE429B3731A00F0F0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NasaPlanetaryImages/Preview Content\"";
+				DEVELOPMENT_TEAM = R592ZXYRNX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nasa.planets101.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27C1EEE629B3731A00F0F0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4HCHD8M9RP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nasa.planets.com.NasaPlanetaryImagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasaPlanetaryImages.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NasaPlanetaryImages";
+			};
+			name = Debug;
+		};
+		27C1EEE729B3731A00F0F0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4HCHD8M9RP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nasa.planets.com.NasaPlanetaryImagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasaPlanetaryImages.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NasaPlanetaryImages";
+			};
+			name = Release;
+		};
+		27C1EEE929B3731A00F0F0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4HCHD8M9RP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nasa.planets.com.NasaPlanetaryImagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NasaPlanetaryImages;
+			};
+			name = Debug;
+		};
+		27C1EEEA29B3731A00F0F0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4HCHD8M9RP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nasa.planets.com.NasaPlanetaryImagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NasaPlanetaryImages;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27C1EEB929B3731900F0F0BA /* Build configuration list for PBXProject "NasaPlanetaryImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C1EEE029B3731A00F0F0BA /* Debug */,
+				27C1EEE129B3731A00F0F0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C1EEE229B3731A00F0F0BA /* Build configuration list for PBXNativeTarget "NasaPlanetaryImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C1EEE329B3731A00F0F0BA /* Debug */,
+				27C1EEE429B3731A00F0F0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C1EEE529B3731A00F0F0BA /* Build configuration list for PBXNativeTarget "NasaPlanetaryImagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C1EEE629B3731A00F0F0BA /* Debug */,
+				27C1EEE729B3731A00F0F0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27C1EEE829B3731A00F0F0BA /* Build configuration list for PBXNativeTarget "NasaPlanetaryImagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27C1EEE929B3731A00F0F0BA /* Debug */,
+				27C1EEEA29B3731A00F0F0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		27C1EF2F29B3B70700F0F0BA /* XCRemoteSwiftPackageReference "RealTimeRegression" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Zulqurnain24/RealTimeRegression.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27C1EF3029B3B70700F0F0BA /* RealTimeRegression */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27C1EF2F29B3B70700F0F0BA /* XCRemoteSwiftPackageReference "RealTimeRegression" */;
+			productName = RealTimeRegression;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 27C1EEB629B3731900F0F0BA /* Project object */;
+}

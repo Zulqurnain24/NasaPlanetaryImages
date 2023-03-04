@@ -1,0 +1,38 @@
+[
+  {
+    "image": "image_1",
+    "title": "11 Comae Berenices b",
+    "description": "11 Comae Berenices b is a gas giant exoplanet that orbits a K-type star. Its mass is 19.4 Jupiters, it takes 326 days to complete one orbit of its star, and is 1.29 AU from its star. Its discovery was announced in 2007.",
+    "date": "Discovery Date: 2007-01-01"
+  },
+  {
+    "image": "image_2",
+    "title": "11 Ursae Minoris b",
+    "description": "11 Ursae Minoris b is a gas giant exoplanet that orbits a K-type star. Its mass is 14.74 Jupiters, it takes 1.4 years to complete one orbit of its star, and is 1.53 AU from its star. Its discovery was announced in 2009.",
+    "date": "Discovery Date: 2007-01-01"
+  },
+  {
+    "image": "image_3",
+    "title": "14 Andromedae b",
+    "description": "14 Andromedae b is a gas giant exoplanet that orbits a K-type star. Its mass is 4.8 Jupiters, it takes 185.8 days to complete one orbit of its star, and is 0.83 AU from its star. Its discovery was announced in 2008.",
+    "date": "Discovery Date: 2008-01-01"
+  },
+  {
+    "image": "image_4",
+    "title": "14 Herculis b",
+    "description": "14 Herculis b is a gas giant exoplanet that orbits a G-type star. Its mass is 8.13881 Jupiters, it takes 4.8 years to complete one orbit of its star, and is 2.773069 AU from its star. Its discovery was announced in 2002.",
+    "date": "Discovery Date: 2002-01-01"
+  },
+  {
+    "image": "image_5",
+    "title": "16 Cygni B",
+    "description": "16 Cygni B b is a gas giant exoplanet that orbits a G-type star. Its mass is 1.78 Jupiters, it takes 2.2 years to complete one orbit of its star, and is 1.66 AU from its star. Its discovery was announced in 1996.",
+    "date": "Discovery Date: 1996-08-04"
+  },
+  {
+    "image": "image_6",
+    "title": "17 Scorpii b",
+    "description": "17 Scorpii b is a gas giant exoplanet that orbits a K-type star. Its mass is 4.32 Jupiters, it takes 1.6 years to complete one orbit of its star, and is 1.45 AU from its star. Its discovery was announced in 2020.",
+    "date": "Discovery Date: 2022-08-04"
+  },
+]
